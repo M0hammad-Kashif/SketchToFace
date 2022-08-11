@@ -1,2 +1,2 @@
 # Sketch to face
-SandBox tuning project to generate new fake data deceptively from real data
+pix2pix GAN for image to image translation (sketch image to face image translation)
