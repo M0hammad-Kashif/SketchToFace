@@ -90,8 +90,4 @@ class Generator(nn.Module):
         return self.final_up(torch.cat([up7, d1], 1))
 
 
-x = torch.randn((1, 3, 256, 256))
-model = Generator(in_channels=3, features=64)
-pred = model(x)
-print(pred.shape)
 
